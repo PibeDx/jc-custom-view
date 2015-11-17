@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="FontTextView">
+        <attr name="fab_colorPressed" format="color"/>
+        <attr name="fab_colorNormal" format="color"/>
+        <attr name="fab_colorRipple" format="color"/>
+        <attr name="fab_shadow" format="boolean"/>
+        <attr name="labelPositions" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="custom_font">
+        <attr name="fontType" format="enum">
+            <enum name="Black" value="0"/>
+            <enum name="complex" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PieChart">
+        <attr name="autoCenterPointerInSlice" format="boolean"/>
+        <attr name="highlightStrength" format="float"/>
+        <attr name="labelColor" format="color"/>
+        <attr name="labelHeight" format="dimension"/>
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="labelWidth" format="dimension"/>
+        <attr name="labelY" format="dimension"/>
+        <attr name="pieRotation" format="integer"/>
+        <attr name="pointerRadius" format="dimension"/>
+        <attr name="textShow" format="boolean"/>
+        <!--<attr name="showText" format="boolean"/>-->
+    </declare-styleable>
+</resources>
